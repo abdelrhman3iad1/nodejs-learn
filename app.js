@@ -37,6 +37,7 @@ console.log("**************************************************");
 */
 
 // video 11 - 16
+/*
 var x = 1,z=2;
 if (x == z) {
     console.log("x is equal to z");
@@ -85,3 +86,10 @@ function test() {
 
 }
 test()
+*/
+
+// video 17 - 18
+
+for(let i = 0; i <= 6; i+=2) {
+    console.log(i);
+}
