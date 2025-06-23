@@ -23,6 +23,7 @@ console.log("**************************************************");
 */
 
 // video 9 - 10
+/*
 console.log("xav"<"333");
 console.log("xav"<"xavs");
 console.log("**************************************************");
@@ -33,3 +34,54 @@ function test() {
 console.log( x==z && test());
 console.log( x==z || test());
 console.log("**************************************************");
+*/
+
+// video 11 - 16
+var x = 1,z=2;
+if (x == z) {
+    console.log("x is equal to z");
+}else if (x>z) {
+    console.log("x is greater than z");
+}else {
+    console.log("x is less than z");
+}
+console.log("**************************************************");
+var x = 2;
+{
+    console.log(x);
+    var x = 3;
+}
+function test() {
+    var x = 5;
+
+    console.log(x);
+
+}
+test()
+console.log(x);
+const data = 8;
+
+{
+    console.log(data);  
+
+    // const data = 10;
+}
+function test() {
+
+    console.log(data);
+
+}
+test()
+{
+
+    let x = 2;
+}
+    let x = 5;
+
+    console.log(x);
+function test() {
+
+    console.log(x);
+
+}
+test()
