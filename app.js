@@ -89,7 +89,28 @@ test()
 */
 
 // video 17 - 18
-
+/*
 for(let i = 0; i <= 6; i+=2) {
     console.log(i);
 }
+*/
+
+
+// video 19 - 21
+
+/*console.log(data);
+var data = 5;
+data = 5;
+console.log(data);
+var data ;
+data = 5;
+console.log(data);
+let data;*/
+let data = [1,2,3,4,5,6,7,8,9,10];
+let data2 = new Array(10);
+let data3 = new Array();
+data.push(11);
+data.pop();
+data.unshift(0);
+data.shift();
+console.log(data);
