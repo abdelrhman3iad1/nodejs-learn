@@ -105,7 +105,7 @@ console.log(data);
 var data ;
 data = 5;
 console.log(data);
-let data;*/
+let data;
 let data = [1,2,3,4,5,6,7,8,9,10];
 let data2 = new Array(10);
 let data3 = new Array();
@@ -114,3 +114,41 @@ data.pop();
 data.unshift(0);
 data.shift();
 console.log(data);
+*/
+
+
+// video 22 - 23
+function addNumber1(num1,num2){
+    return num1+num2;
+}
+const addNumber2 = function(num1,num2){
+    return num1+num2;
+} 
+const addNumber3 = (num1,num2)=> {
+    return num1+num2;
+} 
+const addNumber4 = function(num){
+    let result = [];
+    for(let i = 0 ; i < arguments.length;i++){
+        result += arguments[i];
+    }
+    return result;
+}
+console.log(addNumber4(5,8,9,7,5));
+
+let colors = ['red','green','blue'];
+let colors2 = ['purple','black','orange'];
+colors.splice(1,1);
+let colorsStr = colors.join('-');
+console.log(colorsStr);
+
+let colors3 = colors.concat(colors2);
+console.log(colors3);
+
+
+console.log(colors3.includes('green'));
+console.log(colors3.includes('greeN'));
+
+console.log(colors3.indexOf('greeN'));
+console.log(colors3.indexOf('green'));
+console.log(colors3.lastIndexOf('green'));
