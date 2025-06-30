@@ -118,6 +118,7 @@ console.log(data);
 
 
 // video 22 - 23
+/*
 function addNumber1(num1,num2){
     return num1+num2;
 }
@@ -152,3 +153,48 @@ console.log(colors3.includes('greeN'));
 console.log(colors3.indexOf('greeN'));
 console.log(colors3.indexOf('green'));
 console.log(colors3.lastIndexOf('green'));
+*/
+
+// video 24 - 25
+let obj = {
+    name:'',
+    age:22,
+    isMarried:false,
+    hobbies: ['reading', 'gaming', 'coding'],
+    fees:function(){
+        return this.age + 100;
+    },
+};
+obj.name = 'xav';
+console.log(obj.fees());
+console.log(obj);
+console.log("*********************************8");
+
+const create_object = (name , motor , model) => {
+    let car = {
+        name : name,
+        motor : motor,
+        model : model,
+    };
+    return car ;
+};
+
+let car = create_object('BMW','V8','2023');
+console.log(car);
+console.log("*********************************8");
+
+function Car (name , motor , model){
+    year = 2023;
+    this.name = name;
+    this.motor = motor;
+    this.model = model;
+    this.getYearInfo = () => {
+        return `${year}`;
+    }
+}
+let bmw = new Car('BMW','V10','2025');
+console.log(bmw);
+console.log(bmw.getYearInfo());
+// console.log(bmw.year);
+console.log("*********************************8");
+
