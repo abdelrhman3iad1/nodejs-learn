@@ -196,5 +196,5 @@ let bmw = new Car('BMW','V10','2025');
 console.log(bmw);
 console.log(bmw.getYearInfo());
 // console.log(bmw.year);
-console.log("*********************************8");
+console.log("**********************************8");
 
