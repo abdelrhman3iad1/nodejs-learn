@@ -156,6 +156,7 @@ console.log(colors3.lastIndexOf('green'));
 */
 
 // video 24 - 25
+/*
 let obj = {
     name:'',
     age:22,
@@ -197,4 +198,4 @@ console.log(bmw);
 console.log(bmw.getYearInfo());
 // console.log(bmw.year);
 console.log("**********************************8");
-
+*/
