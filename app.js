@@ -199,3 +199,80 @@ console.log(bmw.getYearInfo());
 // console.log(bmw.year);
 console.log("**********************************8");
 */
+
+// video 27 - 31
+
+/**
+ * undefined / null is a primitive datatypes and primitive values 
+ *  undefined is passed automatically to (un)intialized variable
+ *  null is passed manually by user to empty variables
+ * 
+ * null == undefined true
+ * null === undefined false ( after type casting )
+ * 
+ * different types but same value
+ */
+/*
+console.log( null == undefined);
+console.log( null === undefined);
+*/
+/**
+ * to check if variable is not empty usually use 
+ *      if( x !== undefined && x !== null )
+ */
+
+/*
+let x = 5.9868;
+console.log(x.toFixed(5)); 
+// Object Type Coercion: looks variable x belongs to which Object and makes the variable 
+// takes instance from it
+// Object coersion : includes type casting,using the constructor func
+// this line as same as : let x = new Number(5.9868);
+
+console.log(Number.parseFloat(x).toFixed(5));
+
+console.log(Number(undefined)); // NaN
+console.log(Number(null)); // 0
+console.log( Number.MAX_VALUE); //1.7976931348623157e+308
+console.log( Number.MAX_SAFE_INTEGER); //9007199254740991
+console.log( Number.NaN == Number.NaN ); // False
+console.log( Number.NaN === Number.NaN ); // False
+// AND MANY CONSTANT VALUES IN THE CONSTRUCTOR FUNCTION/OBJECT
+
+console.log(Number.isInteger(5));
+
+console.log(Number.isNaN(5));//false
+console.log(Number.isNaN(undefined));//false
+console.log(Number.isNaN("hha"));//false
+
+console.log(Number.isNaN(null));//false
+console.log(Number.isNaN("5"));//false
+// AND MANY Functions IN THE CONSTRUCTOR FUNCTION/OBJECT
+*/
+/*
+console.log(isNaN(undefined)); //true // With Type CASTING 
+console.log(isNaN("5")); //false // With Type CASTING 
+console.log(isNaN("hha")); //true //With Type CASTING 
+*/
+/***
+ * There is functions 
+ *      - excute it with Number. Object directly 
+ *      - excute it with Variable took instance from Number Object/Object coercion 
+ */
+
+
+/**
+ * Math Object
+ * All its properties and methods are static
+ * only : Math.#
+*/
+/*
+console.log( Math.abs(-5) );
+console.log( Math.ceil(135.55) );
+console.log( Math.floor(135.44) );
+console.log( Math.round(135.44) );
+console.log( Math.max(135 , 15 , 77) );
+console.log( Math.min(135 , 15 , 77) );
+console.log( Math.pow(2,5) );
+console.log( Math.floor(Math.random() * 100) );
+*/
